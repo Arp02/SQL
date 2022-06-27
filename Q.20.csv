@@ -1,0 +1,9 @@
+category_name,Total_products,,,,,,,"Select c.category_name, "
+Confections,13,,,,,,,       count(p.product_id) as Total_products from products p
+Beverages,12,,,,,,,       inner join categories c
+Condiments,12,,,,,,,       on p.category_id = c.category_id group by c.category_name order by Total_products desc;
+Seafood,12,,,,,,,
+Dairy Products,10,,,,,,,
+Grains/Cereals,7,,,,,,,
+Meat/Poultry,6,,,,,,,
+Produce,5,,,,,,,

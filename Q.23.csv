@@ -1,0 +1,10 @@
+product_id,product_name,units_in_stock,Reorder_level,discontinued,,,,"Select product_id,"
+30,Nord-Ost Matjeshering,10,0,0,,,,"       product_name,"
+70,Outback Lager,15,10,0,,,,"       units_in_stock,"
+,,,,,,,,       units_on_order
+,,,,,,,,"       Reorder_level,"
+,,,,,,,,       discontinued
+,,,,,,,,from products
+,,,,,,,,     where
+,,,,,,,,     units_in_stock + units_on_order <= reorder_level and discontinued = 0
+,,,,,,,,     order by product_id;

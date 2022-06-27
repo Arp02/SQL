@@ -1,0 +1,9 @@
+ship_country,Average_frieght,,,,,,select
+Austria,178.3642857,,,,,," ship_country,"
+Switzerland,117.1774997,,,,,, avg(freight) as Average_frieght
+Sweden,105.1599994,,,,,, from orders
+,,,,,,, where order_date >= '1997-01-01' and order_date < '1998-01-01'
+,,,,,,, group by ship_country
+,,,,,,, order by Average_frieght desc
+,,,,,,, limit 3;
+,,,,,,, 

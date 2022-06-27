@@ -1,0 +1,23 @@
+product_id,product_name,units_in_stock,Reorder_level,,,,,,"Select product_id,"
+2,Chang,17,25,,,,,,"       product_name,"
+3,Aniseed Syrup,13,25,,,,,,"       units_in_stock,"
+5,Chef Anton's Gumbo Mix,0,0,,,,,,       Reorder_level
+11,Queso Cabrales,22,30,,,,,,from products
+17,Alice Mutton,0,0,,,,,,     where
+21,Sir Rodney's Scones,3,5,,,,,,     units_in_stock <= reorder_level
+29,Thüringer Rostbratwurst,0,0,,,,,,     order by product_id;
+30,Nord-Ost Matjeshering,10,15,,,,,,
+31,Gorgonzola Telino,0,20,,,,,,
+32,Mascarpone Fabioli,9,25,,,,,,
+37,Gravad lax,11,25,,,,,,
+43,Ipoh Coffee,17,25,,,,,,
+45,Rogede sild,5,15,,,,,,
+48,Chocolade,15,25,,,,,,
+49,Maxilaku,10,15,,,,,,
+53,Perth Pasties,0,0,,,,,,
+56,Gnocchi di nonna Alice,21,30,,,,,,
+64,Wimmers gute Semmelknödel,22,30,,,,,,
+66,Louisiana Hot Spiced Okra,4,20,,,,,,
+68,Scottish Longbreads,6,15,,,,,,
+70,Outback Lager,15,30,,,,,,
+74,Longlife Tofu,4,5,,,,,,
